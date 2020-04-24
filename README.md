@@ -4,7 +4,7 @@ Este é um tipo de sistema que eu acho que todos os professores dos cursos na á
 
 Este sistema está bem completo, segundo o cliente ele tirou nota 10 no trabalho, e particularmente como desenvolvedor, acho que ficou faltando algumas coisas ainda para implementar que iria deixar bem mais legal.
 
-**Tecnologias**
+**Tecnologias**  
 Este sistema foi feito utilizando HTML5, CSS, JavaScript, jQuery, Bootstrap e como back-end unicamente PhP. Neste repositório tem também o arquivo *agenda.sql* que inclui o banco com alguns dados já populados.
 
 ![Sistema de Agenda Web - criar conta](https://github.com/conradosaud/agenda-web/blob/master/agenda-foto2.png?raw=true)
