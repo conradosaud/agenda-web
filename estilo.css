@@ -1,0 +1,206 @@
+/*
+
+    [PALETA DE CORES]
+    #24305E; Azul escuro forte
+    #374785; Azul escuro 
+    #A8D0E6;  Azul claro 
+    #F76C6C; Vermelho 
+    #F8E9A1; Amarelo
+    
+    
+*/
+
+body{
+    font-family: Verdana;
+}
+
+h1, h3{
+    font-family: Tahoma;
+    
+}
+
+h1{
+    color: #F76C6C;
+}
+
+h3{
+    color: #24305E;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: inherit;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a{
+    color: #F76C6C;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+textarea{
+    resize: none;
+    color: #555;
+}
+
+.container{
+    margin: 2% 3%;
+}
+
+.centro{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.esquerda{
+    position: relative;
+    text-align: left;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.meio{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.caixa{
+    display: inline-block;
+    padding: 20px 25px;
+    box-shadow: 1px 1px 3px grey;
+    border-radius: 10px;
+}
+
+.full{
+    width: 100%;
+}
+.half{
+    width: 50%;
+}
+
+.campo-form input{
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size: 17px;
+    width: 95%;
+    margin-bottom: 25px;
+}
+.campo-form input:focus{
+    outline: none !important;
+    transition: border-color 0.5s ease;
+    border-color: black;
+}
+
+.botao-primario{
+    background-color: #374785;
+    color: #FFF;
+}
+
+.cabecalho{
+    margin-bottom: 35px;
+}
+
+.rodape{
+    margin-top: 35px;
+}
+
+.caixa{
+    background-color: #FFF;
+}
+
+.fundo{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundo-inicio{
+    background-image: url('imagens/bg-inicio.jpg');
+    background-color: #374785;
+}
+
+.fundo-painel{
+    background-image: url('imagens/bg-painel.jpg');
+    background-color: #F8E9A1;
+}
+
+.caixa .contatos, .caixa .compromissos{
+    margin-top: 15px;
+    padding: 10px 15px; 
+    width: 250px;
+    max-width: 250px;
+    border: 1px solid #A8D0E6;
+    box-shadow: 0px 0px 1px #A8D0E6;
+}
+
+.contatos ul, .compromissos ul{
+    list-style-type:none;
+    padding: 0;
+}
+
+
+.contatos .contato-nome, .compromissos .compromisso-status{
+    color: #374785;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.contatos .contato-email{
+    font-size: 13.5px;
+    margin-bottom: 10px;
+}
+.contatos .contato-telefone, .contatos .contato-celular, .contatos .contato-endereco-completo{
+    font-size: 14px;
+}
+.contatos .contato-endereco-completo{
+    margin-top: 10px;
+}
+
+.compromissos .compromisso-descricao{
+    margin-top: 10px;
+    color: #555;
+}
+
+
+.campo-data{
+    margin-top: 20px;
+}
+.campo-data input, .campo-form textarea{
+    padding: 5px;
+    font-family: Verdana;
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size: 17px;
+}
+.campo-data input,  .campo-form textarea:focus{
+    outline: none !important;
+    transition: border-color 0.5s ease;
+    border-color: black;
+}
+
+.campo-form textarea{
+    margin-bottom: 20px;
+}
+
+.tabela{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabela-celula{
+   margin-right: 15px;
+}
